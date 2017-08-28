@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "GetDayOfElection"
+    },
+    {
+      "intent": "GetTimeTillElection"
+    },
+    {
+      "slots": [
+        {
+          "name": "FromDate",
+          "type": "AMAZON.DATE"
+        }
+      ],
+      "intent": "GetDaysFromDate"
+    }
+  ]
+}
